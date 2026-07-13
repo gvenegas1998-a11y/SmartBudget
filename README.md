@@ -5,7 +5,7 @@ El rol del desarrollador Front-End en el ciclo de vida de un producto digital es
 Este rol no se limita a una traducción literal o "copia" de elementos visuales a código, sino que implica una toma de decisiones constante basada en buenas prácticas:
     *	Garantizar la accesibilidad y el SEO: Mediante el uso estricto de HTML5 semántico para que el sitio sea legible tanto por motores de búsqueda como por tecnologías asistivas (lectores de pantalla).
     *	Optimización del rendimiento: Asegurar que los recursos visuales, hojas de estilo y scripts carguen con la máxima velocidad y eficiencia.
-    *	Diseño adaptativo Lograr que la experiencia de usuario sea fluida, lógica y estéticamente impecable en cualquier resolución, desde el dispositivo móvil más compacto hasta pantallas de escritorio de gran formato.
+    *	Diseño adaptativo: Lograr que la experiencia de usuario sea fluida, lógica y estéticamente impecable en cualquier resolución, desde el dispositivo móvil más compacto hasta pantallas de escritorio de gran formato.
 En conclusión, el Front-End transforma maquetas estáticas en experiencias dinámicas, asegurando que el producto digital final cumpla con los estándares técnicos de la industria moderna.
 
 
