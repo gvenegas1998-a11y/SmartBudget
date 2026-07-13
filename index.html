@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBudget - Gestiona tus finanzas personales</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <!-- Estilos personalizados (SASS compilado) -->
+   <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         1. HEADER & NAVBAR (Lección 1 y 5)
+         ========================================== -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">SmartBudget</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-navbar-outline ml-lg-2" href="#">Ingresar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==========================================
+         2. MAIN CONTENT (Página Única de Inicio)
+         ========================================== -->
+    <main>
+        
+        <!-- SECCIÓN HERO (Lección 4: Layout Flexbox) -->
+        <section class="hero d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 hero__content">
+                        <h1 class="hero__title">Tus finanzas, más simples e inteligentes</h1>
+                        <p class="hero__text">Gestiona tus ingresos, gastos y presupuestos desde una plataforma intuitiva. Visualiza tu información en tiempo real, organiza tus objetivos financieros y toma decisiones con mayor confianza.</p>
+                        <a class="btn btn-lg hero__btn mt-3" href="#status-alert">Comenzar Gratis</a>
+                    </div>
+                    <div class="col-lg-6 hero__image-container">
+                        <div class="hero__image-placeholder text-center">
+                            <img src="smart.avif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CARACTERÍSTICAS (Lección 5: Bootstrap Cards) -->
+        <section id="features" class="features section-padding py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">¿Por qué elegir SmartBudget?</h2>
+                    <p class="section-subtitle">Todo lo que necesitas para gestionar tus finanzas.</p>
+                </div>
+                
+                <div class="row">
+                    <!-- Card 1 (Metodología BEM aplicada) -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 feature-card">
+                            <div class="card-body">
+                                <h3 class="card-title feature-card__title">Control de Gastos</h3>
+                                <p class="card-text feature-card__text">Registra y organiza cada movimiento financiero de forma sencilla. Clasifica automáticamente tus ingresos y gastos para mantener un control preciso de tus finanzas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 feature-card">
+                            <div class="card-body">
+                                <h3 class="card-title feature-card__title">Presupuestos Inteligentes</h3>
+                                <p class="card-text feature-card__text">Crea presupuestos personalizados, establece límites de gasto y recibe notificaciones oportunas para mantener tus objetivos financieros bajo control.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 feature-card">
+                            <div class="card-body">
+                                <h3 class="card-title feature-card__title">Análisis y Reportes</h3>
+                                <p class="card-text feature-card__text">Visualiza gráficos interactivos y reportes detallados que te permitan comprender tus hábitos de consumo y tomar decisiones financieras informadas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+         3. FOOTER
+         ========================================== -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="footer__text mb-0">&copy; 2026 SmartBudget. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

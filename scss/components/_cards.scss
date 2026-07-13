@@ -1,0 +1,40 @@
+// ==========================================================================
+// COMPONENTE: FEATURE CARDS (BEM + Microinteracciones)
+// ==========================================================================
+
+.feature-card {
+    border: 1px solid rgba($color-accent, 0.2) !important;
+    border-radius: 12px !important;
+    background-color: $color-white;
+    box-shadow: 0 4px 12px rgba($color-primary, 0.03);
+    transition: all 0.3s ease-in-out;
+
+    &__title {
+        font-family: $font-base !important;
+        font-weight: 600;
+        color: $color-primary;
+    }
+
+    &__text {
+        font-family: $font-base !important;
+        color: $color-text-dark;
+        opacity: 0.8;
+    }
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 24px rgba($color-secondary, 0.08);
+        border-color: $color-accent !important;
+    }
+}
+
+.section-title {
+    font-family: $font-titles !important;
+    font-weight: 700;
+    color: $color-primary;
+}
+
+.section-subtitle {
+    font-family: $font-base !important;
+    color: $color-text-muted;
+}

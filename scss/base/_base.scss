@@ -1,0 +1,12 @@
+/* BASE: ESTILOS GLOBALES Y RESETEO DE ESTILOS */
+
+html {
+    scroll-behavior: smooth; // Permite el deslizamiento suave al hacer clic en los menús
+}
+
+body {
+    font-family: $font-base !important;
+    color: $color-text-dark;
+    background-color: $color-white;
+    overflow-x: hidden; // Evita desbordamientos raros en pantallas pequeñas
+}

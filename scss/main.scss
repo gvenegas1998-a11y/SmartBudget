@@ -1,0 +1,16 @@
+// ==========================================================================
+// ARCHIVO CENTRAL SASS - PATRÓN 7-1
+// ==========================================================================
+
+@import 'abstracts/variables';
+@import 'base/base';
+
+body {
+    font-family: $font-base;
+    color: $color-text-dark;
+    background-color: $color-white;
+}
+
+@import 'layout/navbar';
+@import 'layout/hero';
+@import 'components/cards';
